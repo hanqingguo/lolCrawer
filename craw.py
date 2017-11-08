@@ -2,7 +2,7 @@ from riotwatcher import RiotWatcher
 
 
 class craw_one:
-    watcher = RiotWatcher('RGAPI-4482c5a4-d7a0-467e-bc3f-14b949881cb6')
+    watcher = RiotWatcher('RGAPI-f8a0fee8-7b0c-4ea7-87c1-695bcb030efe')
 
 
     def transfer_name_to_summoner(self,region,name):
