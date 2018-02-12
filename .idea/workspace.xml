@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53981cc1-5395-43e6-af04-029be2e00d82" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/craw.py" afterPath="$PROJECT_DIR$/craw.py" />
-      <change beforePath="$PROJECT_DIR$/crew100players.py" afterPath="$PROJECT_DIR$/crew100players.py" />
       <change beforePath="$PROJECT_DIR$/crew_many.py" afterPath="$PROJECT_DIR$/crew_many.py" />
-      <change beforePath="$PROJECT_DIR$/lolCraw" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pandas_Data.py" afterPath="$PROJECT_DIR$/pandas_Data.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +19,8 @@
       <file leaf-file-name="craw.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/craw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+            <state relative-caret-position="558">
+              <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -35,10 +29,10 @@
       <file leaf-file-name="crew_many.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crew_many.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="31" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,7 +41,7 @@
       <file leaf-file-name="crew100players.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crew100players.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="2051">
               <caret line="116" column="43" lean-forward="false" selection-start-line="116" selection-start-column="43" selection-end-line="116" selection-end-column="43" />
               <folding />
             </state>
@@ -101,10 +95,10 @@
         <option value="$PROJECT_DIR$/savetest.py" />
         <option value="$PROJECT_DIR$/class_test.py" />
         <option value="$PROJECT_DIR$/class test.py" />
-        <option value="$PROJECT_DIR$/crew_many.py" />
         <option value="$PROJECT_DIR$/crew100players.py" />
         <option value="$PROJECT_DIR$/pandas_Data.py" />
         <option value="$PROJECT_DIR$/craw.py" />
+        <option value="$PROJECT_DIR$/crew_many.py" />
       </list>
     </option>
   </component>
@@ -379,7 +373,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="2495" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18487056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -429,7 +422,7 @@
         <state relative-caret-position="900">
           <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -460,14 +453,6 @@
     <entry file="file://$PROJECT_DIR$/class_test.py" />
     <entry file="file://$PROJECT_DIR$/savetest.py" />
     <entry file="file://$PROJECT_DIR$/class test.py" />
-    <entry file="file://$PROJECT_DIR$/crew100players.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="116" column="43" lean-forward="false" selection-start-line="116" selection-start-column="43" selection-end-line="116" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -476,13 +461,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pandas_Data.py">
+    <entry file="file://$PROJECT_DIR$/crew100players.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2051">
+          <caret line="116" column="43" lean-forward="false" selection-start-line="116" selection-start-column="43" selection-end-line="116" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -496,20 +479,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crew_many.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="378">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="31" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/craw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        <state relative-caret-position="558">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="22" />
           <folding />
         </state>
       </provider>

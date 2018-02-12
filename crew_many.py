@@ -1,4 +1,4 @@
-from lolCrawer import craw
+import craw
 import pymongo
 import urllib.request
 
