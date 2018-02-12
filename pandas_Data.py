@@ -1,6 +1,6 @@
 __author__ = 'hanqing'
 
-from lolCrawer import craw
+import craw
 import pymongo
 import urllib.request
 import pandas as pd

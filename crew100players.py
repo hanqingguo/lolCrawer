@@ -115,7 +115,6 @@ def get_100playerRecord():
         AverageAssist=total['TotalAssist']/20
         AverageDamageToken=total['TotalDamageToken']/20
         AverageMoney=total['TotalMoney']/20
-       # AverageWard=total['TotalWards']/20
 
 
         record={'playerName':users_list[i],'highestRank':highestRank,'match_performance':matchArr}
