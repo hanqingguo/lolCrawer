@@ -54,4 +54,16 @@ craw.py encapsuled riotwatcher api, when give it a summoner name and region, it 
 #### Once initilized a summoner, then can use methods in craw_one.
     player = craw_one('na1','zzzAaronzzz')
     player.get........
+    
+### Craw_many.py use one summoner name as seed, recursively collect 10000 match to mongoDB.
+
+### MongoDB
+
+#### Installation
+    
+    https://docs.mongodb.com/manual/installation/
+
+Install pymongo to drive mongoDB
+
+    $ python -m pip install pymongo
    
