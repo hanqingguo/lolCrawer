@@ -13,3 +13,9 @@ data in this game.
 ### [MongoDB](#mongo)
 
 ### [Visualization](#visualization)
+
+### Riot Api
+
+#### Installation
+
+    pip install riotwatcher
