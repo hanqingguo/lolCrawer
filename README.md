@@ -77,4 +77,13 @@ Install pymongo to drive mongoDB
     db = client1.LOLRecord3                                 ### DB name is LOLRecord3
     match_record = db.match_record                          ### collection name is match_record
     match_record.insert_one(player.get_match_list)          ### Save match list to collection match_record                 
-    
+    
+### Visualization
+
+#### [pieChart1](https://hanqingguo.github.io/lolCrawer/visulation/bad_piechart.html)
+#### [pieChart2](https://hanqingguo.github.io/lolCrawer/visulation/sun_brust.html)
+
+#### [barChart](https://hanqingguo.github.io/lolCrawer/visulation/bar_chart_bad.html)
+
+#### [networkChart](https://hanqingguo.github.io/lolCrawer/visulation/good_network.html)
+
