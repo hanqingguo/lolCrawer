@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <title>
+    </title>
+  </head>
+  <style>
+  	.axis path,
+  	.axis line{
+  		fill: none;
+  		stroke: black;
+  		shape-rendering: crispEdges;
+  	}
+
+  	.axis text {
+  		font-family: sans-serif;
+  		font-size: 11px;
+  	}
+
+  	.MyRect {
+  		fill: steelblue;
+  	}
+
+  	.MyText {
+  		fill: white;
+  		text-anchor: middle;
+  	}
+  </style>
+  <body>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script>
+
+    var jsondata;
+    var contain;
+    var damageData={"name":"damage","children":[{"name":"team100","children":[]},{"name":"team200","children":[]}]};
+
+
+    function loadDamageData(callback){
+      for(var i=0;i<jsondata.length;i++)
+      {
+        for(var j=0;j<jsondata[i]["participants"].length;j++){
+          if(jsondata[i]["participants"][j]["teamId"]==100)
+          {
+            contain=0;
+            var role=jsondata[i]["participants"][j]["timeline"]["role"];
+            var lane=jsondata[i]["participants"][j]["timeline"]["lane"];
+            for(var k=0;k<damageData["children"][0]["children"].length;k++)
+            {
+
+              if(role+" "+lane==damageData["children"][0]["children"][k]["name"])
+              {
+                damageData["children"][0]["children"][k]["size"]+=jsondata[i]["participants"][j]["stats"]["totalDamageDealtToChampions"];
+                contain=1;
+              }
+            }
+            if(contain==0)
+            {
+                damageData["children"][0]["children"].push({"name":role+" "+lane,"size":jsondata[i]["participants"][j]["stats"]["totalDamageDealtToChampions"]})
+            }
+          }
+          else {
+            contain=0;
+            var role=jsondata[i]["participants"][j]["timeline"]["role"];
+            var lane=jsondata[i]["participants"][j]["timeline"]["lane"];
+
+
+            for(var k=0;k<damageData["children"][1]["children"].length;k++)
+            {
+
+              if(role+" "+lane==damageData["children"][1]["children"][k]["name"])
+              {
+                damageData["children"][1]["children"][k]["size"]+=jsondata[i]["participants"][j]["stats"]["totalDamageDealtToChampions"];
+                contain=1;
+              }
+
+            }
+            if(contain==0)
+            {
+                damageData["children"][1]["children"].push({"name":role+" "+lane,"size":jsondata[i]["participants"][j]["stats"]["totalDamageDealtToChampions"]})
+            }
+          }
+          }
+        }
+
+      callback(damageData);
+    }
+    function printData(Ddata){
+      console.log(Ddata);
+    }
+
+
+    d3.json("lol_test.json",function(error,data){
+      jsondata=data;
+      loadDamageData(printData);
+    });
+
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<meta charset="utf-8">
+
+<body>
+<div id="chart"></div>
+  <script src="https://rawgit.com/masayuki0812/c3/master/c3.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+
+<script>
+var somethingWeLoadedFromTheServer = [
+    {a:23, b:45, c:12},
+    {a:34, b:19, c:38},
+    {a:25, b:62, c:56},
+    {a:44, b:88, c:74}
+];
+
+var chart = c3.generate({
+    data: {
+        json: somethingWeLoadedFromTheServer,
+        keys: {
+            value: ['a', 'b'],
+            //x: 'c'
+        },
+        type: 'bar'
+    },
+
+    bar: {
+        width: {
+            ratio: 0.5 // this makes bar width 50% of length between ticks
+        }
+    },
+//    axis: {
+//		y: {
+//			tick: {
+//				count: 3,
+//				format: d3.format('.2f')
+//			}
+//		}
+//	}
+});
+</script>
+</body>
